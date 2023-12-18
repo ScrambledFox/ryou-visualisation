@@ -1,0 +1,63 @@
+{
+    "version": "0.1",
+    "devices": [
+        {
+            "name": "Button",
+            "id": "25",
+            "size": {
+                "width": 50,
+                "height": 50
+            },
+            "events": [
+                {
+                    "name": "OnBlueButtonDown",
+                    "type": "output"
+                },
+                {
+                    "name": "OnBlueButtonUp",
+                    "type": "output"
+                },
+                {
+                    "name": "OnGreenButtonDown",
+                    "type": "output"
+                },
+                {
+                    "name": "OnGreenButtonUp",
+                    "type": "output"
+                }
+            ]
+        },
+        {
+            "name": "Potmeter",
+            "id": "26",
+            "size": {
+                "width": 50,
+                "height": 50
+            },
+            "events": [
+                {
+                    "name": "OnChange",
+                    "type": "output"
+                }
+            ]
+        },
+        {
+            "name": "LED",
+            "id": "27",
+            "size": {
+                "width": 50,
+                "height": 50
+            },
+            "events": [
+                {
+                    "name": "TurnOn",
+                    "type": "input"
+                },
+                {
+                    "name": "TurnOff",
+                    "type": "input"
+                }
+            ]
+        }
+    ]
+}
